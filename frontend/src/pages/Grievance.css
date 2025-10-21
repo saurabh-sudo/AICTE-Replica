@@ -1,0 +1,93 @@
+.grievance-page {
+  padding: 40px 0;
+  min-height: calc(100vh - 200px);
+}
+
+.warning-card {
+  background-color: #fff3cd;
+  border-left: 4px solid #ffc107;
+  margin-bottom: 20px;
+}
+
+.warning-card p {
+  color: #856404;
+  margin: 0;
+  font-weight: 500;
+}
+
+.grievance-form-card {
+  max-width: 700px;
+  margin: 0 auto 20px;
+}
+
+.grievance-form-card h2 {
+  color: #003366;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.success-card {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 40px;
+}
+
+.success-icon {
+  width: 80px;
+  height: 80px;
+  background-color: #28a745;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  margin: 0 auto 20px;
+}
+
+.success-card h2 {
+  color: #28a745;
+  margin-bottom: 20px;
+}
+
+.ticket-info {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+
+.ticket-info strong {
+  color: #003366;
+  font-size: 1.4rem;
+}
+
+.info-card {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #e7f3ff;
+  border-left: 4px solid #007bff;
+}
+
+.info-card h3 {
+  color: #003366;
+  margin-bottom: 15px;
+}
+
+.info-card ul {
+  list-style-position: inside;
+  color: #555;
+}
+
+.info-card li {
+  margin: 8px 0;
+}
+
+@media (max-width: 768px) {
+  .grievance-form-card,
+  .info-card {
+    margin: 0 20px 20px;
+  }
+}

@@ -1,0 +1,97 @@
+.institution-search {
+  padding: 40px 0;
+  min-height: calc(100vh - 200px);
+}
+
+.search-section {
+  margin-bottom: 30px;
+}
+
+.search-controls {
+  display: grid;
+  grid-template-columns: 200px 1fr auto;
+  gap: 15px;
+  align-items: end;
+}
+
+.search-input-group {
+  flex: 1;
+}
+
+.search-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.results-section h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.institutions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.institution-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.institution-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.institution-card h3 {
+  color: #003366;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.institution-details p {
+  margin: 8px 0;
+  color: #555;
+}
+
+.institution-details strong {
+  color: #333;
+}
+
+.status-badge {
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.status-approved {
+  background-color: #28a745;
+  color: white;
+}
+
+.institution-details a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.institution-details a:hover {
+  text-decoration: underline;
+}
+
+.no-results {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .search-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .institutions-grid {
+    grid-template-columns: 1fr;
+  }
+}
